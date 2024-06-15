@@ -1,18 +1,9 @@
-import React from 'react';
 import './App.css';
+import Modal from './components/Modal';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-            <h1>Translator</h1>
-            <p>Translate this text:</p>
-            <textarea></textarea>
-            <button>Translate</button>
-            <p>Translation:</p>
-            <p></p>
-        </div>
-    </div>
+    <Modal/>
   );
 }
 
