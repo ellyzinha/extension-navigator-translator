@@ -40,6 +40,9 @@ module.exports = {
     ],
     resolve: {
         extensions: [".tsx", ".ts", ".js"],
+        alias: {
+            react: path.resolve('./node_modules/react')
+        }
     },
     output: {
         path: path.join(__dirname, "dist/js"),
