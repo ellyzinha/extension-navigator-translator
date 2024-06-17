@@ -39,7 +39,7 @@ module.exports = {
         ...getHtmlPlugins(["index"]),
     ],
     resolve: {
-        extensions: [".tsx", ".ts", ".js"],
+        extensions: [".tsx", ".ts", ".js", ".png", ".jpg"],
         alias: {
             react: path.resolve('./node_modules/react')
         }
